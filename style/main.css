@@ -1,0 +1,231 @@
+/* Cores que serão usadas como padrão no site*/
+:root {
+    --verde: #227f0b;
+    --verde-escuro: #042c15;
+    --branco: #ffffff;
+
+
+}
+/* Renderiza todo documento, tornando padrão para qualquer navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Elementos básicos*/
+body {
+   background: var(--branco);
+   font-family: 'Arial', Times, serif;
+   color: white;
+}
+
+header .container {   
+    display: flex;
+    flex-direction: row; /*row é padrão*/
+    align-items: baseline;
+    justify-content: space-between; /*cria uma distacia entre os elementos*/   
+}
+
+header .selecao {   
+    margin-bottom: 10px;  
+    
+}
+
+header .logo {
+   margin-bottom: 0;
+   margin-top: 10px;
+ 
+ } 
+
+header .logo {
+   display: flex;
+   align-items: baseline;
+
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--verde);
+    margin-right: 15px;
+    font-family: 'Calibri' sans-serif;
+    font-size: 20px;
+}
+
+header nav a:hover {
+    color: var(--verde-escuro);
+}
+
+/* Filme principal*/
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('../img/terraqueos-capa.jpg');
+
+    height: 450px;
+    background-size: cover; /*a imagem pega toda area de cobertura*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .descricao {
+    margin-bottom: 90px;
+    margin-top: 10px;
+}
+.filme-principal .titulo {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    border-radius: 10px;
+
+    padding: 12px 30px; /*os valores são sempre no sentido horário (valor 1 - cima/embaixo, valor 2 - esquerda/direita*/
+    margin-right: 10px;
+    font-size: 15px;
+
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: var(--verde-escuro);
+}
+
+.botao i {
+  margin-right: 8px;
+}
+
+.container {
+    margin-left:  20px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+/*Carrosel*/
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 15px;
+}
+
+/*Canais interessantes*/
+.titulo-canais {
+    height: 50px;
+    padding-top: 20px;
+    font-family: 'Calibri' sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+               
+}
+.canais {
+    font-family: 'Calibri' sans-serif;
+    font-size: 30px;
+    background-color: #227f0b;
+    margin-top: 40px;
+    margin-bottom: 40px;
+      
+}
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 5px;
+    
+}
+
+.itens-canais a {
+    text-decoration: none;
+    color: #042c15;
+}
+
+.itens-canais a:hover {
+    color: #227f0b;
+}
+
+.itens-canais {
+    flex: 1;
+    background-color: #ffffff;
+    border: 2px solid #01411c;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 20px;
+    max-width: 70%;
+    box-shadow: 2px 2px 5px black;    
+    
+}
+
+.itens-canais {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+.itens1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 50px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.itens2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 150px;
+    width: 300px;
+    margin-left: 20px;  
+    
+}
+
+
+.container-canais {
+    display: flex;
+    justify-content: center;
+}
+
+/*Rodapé*/
+
+.footer-container {
+    background: var(--verde-escuro);
+    font-size: 20px;
+    color: #ffffff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+  
+}
+.footer-container {
+    justify-content: space-between;
+}
+.footer-container a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+p {
+    margin-left: 25px; 
+    margin-right: 25px;
+}
+
