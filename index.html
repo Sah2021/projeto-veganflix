@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">    
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">   
+
     <!--Página de estilos principal-->
     <link rel="stylesheet" href="style/main.css">
 
@@ -23,10 +24,10 @@
         <div class="container">
             <h2 class="logo"><img class="titulo-principal"src="img/titulo.jpg" alt="VEGANFLIX"></h2>
             <nav class="selecao">
-                <a href="">Início</a>
-                <a href="">Séries</a>
-                <a href="">Filmes</a>
-                <a href="">Documentários</a>
+                <a href="index.html">Início</a>
+                <a href="#veganismo">Veganismo</a>
+                <a href="#filmes">Filmes</a>
+                <a href="#canais">Canais interessantes</a>
             </nav>
         </div>
     </header>  
@@ -36,9 +37,10 @@
             <div class="container">
                     <h3 class="titulo">Earthlings</h3>
                     <p class="descricao">O filme mostra como funcionam as fazendas industriais e relata a dependência da humanidade sobre os animais para obter alimentação, vestuário e diversão, além do uso em experimentos científicos. Compara o especismo da espécie humana com outras relações de dominação, como o racismo e o sexismo.</p>
-            
+
+                               
                 <div class="botoes">
-                    <a href="https://vimeo.com/142000364" target="_blank">
+                    <a href="earthlings.html" target="_self">
                         <button role="button" class="botao">
                             <i class="fas fa-play"></i>
                             ASSISTIR AGORA
@@ -55,26 +57,26 @@
     </main>
 
     <!--Carrosel de filmes-->
-    <div class="carrosel-filmes">
+    <div class="carrosel-filmes" id="filmes">
      <div class="owl-carousel owl-theme">
          <div class="item">
-             <a href="https://www.youtube.com/watch?v=dTddaT7MjeY" target="_blank"><img class="box-filme" src="img/blackfish.jpg"  alt="blackfish"> </a>
+             <a href="blackfish.html" target="_self"><img class="box-filme" src="img/blackfish.jpg"  alt="blackfish"> </a>
          </div>
 
          <div class="item">
-            <a href="https://www.youtube.com/watch?v=rrFsGTw5bCw" target="_blank"><img class="box-filme" src="img/carne-e-fraca.jpg"  alt="carne e fraca" ></a>
+            <a href="carne-fraca.html" target="_self"><img class="box-filme" src="img/carne-e-fraca.jpg"  alt="carne e fraca" ></a>
          </div>
 
          <div class="item">
-            <a href="https://www.youtube.com/watch?v=lwQhmm2FLc8" target="_blank"><img class="box-filme" src="img/cowspiracy.jpg"  alt="cowspiracy" ></a>
+            <a href="cowspiracy.html" target="_self"><img class="box-filme" src="img/cowspiracy.jpg"  alt="cowspiracy" ></a>
          </div>
 
          <div class="item">
-            <a href="https://mega.nz/file/AEIiVRIb#D2jkiTtuoR5ZGQaDU8nBIUySm63UdSisXnhfMX8H7Eo" target="_blank"><img class="box-filme" src="img/dominion.jpg"  alt="dominion" ></a>
+            <a href="dominion.html" target="_self"><img class="box-filme" src="img/dominion.jpg"  alt="dominion" ></a>
          </div>
 
          <div class="item">
-            <a href="https://www.youtube.com/watch?v=wl9S3Wszw0A" target="_blank"><img class="box-filme" src="img/food-choices.jpg"  alt="food-choices" ></a>
+            <a href="food-choices.html" target="_self"><img class="box-filme" src="img/food-choices.jpg"  alt="food-choices" ></a>
          </div>
 
          <div class="item">
@@ -82,11 +84,11 @@
          </div>
 
          <div class="item">
-            <a href="https://www.youtube.com/watch?v=kjmIJHZRWXw" target="_blank"><img class="box-filme" src="img/vegucated.jpg"  alt="vegucated" ></a>
+            <a href="vegucated.html" target="_blank"><img class="box-filme" src="img/vegucated.jpg"  alt="vegucated" ></a>
          </div>
 
          <div class="item">
-            <a href="https://www.youtube.com/watch?v=NoYINMgImGs" target="_blank">
+            <a href="what-the-health.html" target="_self">
                 <img class="box-filme" src="img/what-the-health.jpg"  alt="what-the-health" ></a>
          </div>
            
@@ -94,8 +96,16 @@
      </div>
     </div>
 
+    <!--Veganismo-->
+    <div class="veganismo" id="veganismo">
+        <h3>Veganismo</h3>
+        <p><em>Veganismo é o modo de vida que busca eliminar toda e qualquer forma de exploração animal, não apenas na alimentação, mas também no vestuário, em testes, na composição de produtos diversos, no trabalho, no entretenimento e no comércio. Veganos opõem-se, obviamente, à caça e à pesca, ao uso de animais em rituais religiosos, bem como a qualquer outro uso que se faça de animais.</em></p> 
+        
+        <p>Veganos são, portanto, vegetarianos que excluem animais e derivados não apenas de sua dieta, mas também de outros aspectos de suas vidas. Esse modo de vida fundamenta-se ideologicamente no respeito aos direitos animais e pode ser praticado por pessoas de quaisquer credo, etnia, gênero ou preferência sexual. O veganismo não tem relação com crenças políticas nem com preferências musicais, nem deve ser associado a determinada cultura. Trata-se, portanto, de uma prática universal.<strong> <a href="veganismo.html">Leia mais...</a></strong></p>
+    </div>
+
     <!--Canais interessantes-->
-    <div class="canais">
+    <div class="canais" id="canais">
         <h3 class="titulo-canais">Canais interessantes</h3>
         <div class="container-canais">
             <div class="itens-canais">

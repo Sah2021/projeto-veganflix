@@ -17,6 +17,8 @@
     .canais {
         font-size: 25px;
     }
+   
+
 }
 
 @media screen and (min-width: 1500px) {
@@ -27,4 +29,5 @@
     .filme-principal {
         height: 600px;
     }
+
 }
