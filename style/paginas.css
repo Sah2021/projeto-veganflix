@@ -33,15 +33,15 @@
     margin-bottom: 10px;
 }
 .bloco-texto{
-    background-color: #ffffff;
-    width: 80%;
-    padding-bottom: 30px;
-   
     color: #042c15;
-    border-radius: 5px;  
+    background-color: #ffffff;
+    border-radius: 5px; 
+    width: 80%;
+    padding-bottom: 30px;   
+   
     margin: 0 auto;
     margin-top: 20px;  
-    
+       
 }
 /*Configuração filma*/
 .filme {
@@ -49,6 +49,7 @@
     justify-content: center;
     padding: 10px;
 }
+
 
 .texto1 h2 {
     font-size: 25px;
@@ -65,46 +66,25 @@ h1 {
     text-shadow: 1px 1px 2px #042c15;
 }
 
-h2 {
+.texto h2 {
     font-size: 20px;
-    text-align: justify;
+    text-align: left;
+    text-indent: 20px;
     padding-top: 20px;
     width: 90%;
     margin-left: 30px;
 }
 
-h4 {
+.texto h4 {
     text-align: center;
+    text-indent: 20px;
 }
 
-p {
+.texto p {
     font-size: 16pt;
-    text-align: justify;
+    text-align: left;
+    text-indent: 20px;
     padding: 10px;
           
 }
 
-
-
-.footer-container {
-    background: var(--verde-escuro);
-    font-size: 20px;
-    color: #ffffff;
-    height: 60px;
-    display: flex;
-    align-items: center;
-  
-}
-.footer-container {
-    justify-content: space-between;
-}
-.footer-container a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.footer-container p {
-    margin-left: 25px; 
-    margin-right: 25px;
-
-}
